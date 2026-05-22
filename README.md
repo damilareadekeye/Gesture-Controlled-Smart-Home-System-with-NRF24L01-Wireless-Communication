@@ -232,10 +232,3 @@ docs/
   project-knowledge-base.pdf   <- full project documentation
 README.md
 ```
-
----
-
-## Student Information
-
-**Name:** Gbenga-Idowu Afeoluwa  
-**Matric:** 21ck029291
