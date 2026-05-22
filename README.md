@@ -148,7 +148,7 @@ Use the same board settings. Upload to the receiver Nano.
 
 Power the receiver from mains via the AC-DC PSU and LM2596. Power the transmitter from the Li-Polymer battery via the TP4056 output.
 
-Both units display a 6-second splash screen on startup (student name and matric number), then enter ready state.
+Both units display a 6-second splash screen on startup, then enter ready state.
 
 ### 6. Operate
 
