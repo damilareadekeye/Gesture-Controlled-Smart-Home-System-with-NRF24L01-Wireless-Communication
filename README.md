@@ -132,7 +132,7 @@ Open the Arduino IDE Library Manager and install all libraries listed above for 
 
 ### 3. Upload transmitter firmware
 
-Open `firmware/transmitter/transmitter_main/transmitter_main.ino`.
+Open `transmitter/transmitter.ino` in the Arduino IDE.
 
 Select board: **Arduino Nano**, processor: **ATmega328P (Old Bootloader)** if your Nano uses the old bootloader.
 
@@ -140,7 +140,7 @@ Upload to the transmitter Nano.
 
 ### 4. Upload receiver firmware
 
-Open `firmware/receiver/receiver_main/receiver_main.ino`.
+Open `receiver/receiver.ino` in the Arduino IDE.
 
 Use the same board settings. Upload to the receiver Nano.
 
@@ -215,19 +215,16 @@ Ensure the APDS9960 is fully initialised (check serial output for "Gesture Senso
 ## Repository Structure
 
 ```
-firmware/
-  transmitter/
-    transmitter_main/
-      transmitter_main.ino      <- production transmitter sketch
-  receiver/
-    receiver_main/
-      receiver_main.ino         <- production receiver sketch
-  reference-sketches/
-    nrf24l01-tx-rx-text-test/   <- minimal NRF24L01 TX/RX text test (dev reference)
-      Receiver/
-        Receiver.ino
-      Transmitter/
-        Transmitter.ino
+transmitter/
+  transmitter.ino               <- production transmitter sketch
+receiver/
+  receiver.ino                  <- production receiver sketch
+reference-sketches/
+  nrf24l01-tx-rx-text-test/     <- minimal NRF24L01 TX/RX text test (dev reference)
+    Receiver/
+      Receiver.ino
+    Transmitter/
+      Transmitter.ino
 docs/
   project-knowledge-base.pdf   <- full project documentation
 README.md
